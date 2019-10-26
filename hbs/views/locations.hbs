@@ -1,0 +1,16 @@
+
+
+<div class = 'card-deck mt-5'>
+     {{#each location}}
+    <div class="card" style="width: 18rem;">
+  <img src="{{this.img}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{this.name}}</h5>
+    <p> Сезон начинается с {{this.seasonFirst}}, а заканчивается {{this.seasonEnd}}</p>
+    <a href="/location/{{this.id}}" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+ {{/each}}
+</div>
+
+
