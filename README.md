@@ -10,7 +10,7 @@ npm init
 npm install
 ```
 
-Далее запустим сервера 
+Далее запустим сервер
 ```bash
 npm start 
 ```
